@@ -42,7 +42,7 @@ a {
 }
 
 .primary-blue-text-color {
-    color: #022656;
+    color: #022656 !important;
 }
 
 .bg-light-blue {
@@ -163,6 +163,7 @@ input::-ms-input-placeholder {
     border-color: #01295a;
     font-size: 15px !important;
     line-height: 30px;
+    border-radius: 10px;
 }
 
 .btn-primary-custom:hover {
@@ -200,13 +201,13 @@ input::-ms-input-placeholder {
     color: #022656;
     font-size: 16px !important;
     font-weight: 700;
-    margin: 40px 0px 5px 0px;
+    margin: 40px 0px 3px 0px;
 }
 
 .plan > p {
     color: #919095;
-    font-size: 14px !important;
-    margin: 0;
+    font-size: 15px;
+    margin: 0px 0px 3px 0px;
 }
 
 .plan-slider {
@@ -218,10 +219,6 @@ input::-ms-input-placeholder {
     margin: 0px 5px 0px 5px;
     font-size: 14px !important;
     font-weight: 600;
-}
-
-.plan-slider label:last-child {
-    color: #919095;
 }
 
 .switch {
@@ -259,14 +256,6 @@ input::-ms-input-placeholder {
     background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-}
-
-input:checked + .slider {
-    background-color: #ccc;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #ccc;
 }
 
 input:checked + .slider:before {
