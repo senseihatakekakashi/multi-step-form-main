@@ -1,0 +1,16 @@
+html, body {
+    background: #eef5ff;
+    height: 90vh !important;
+}
+
+.card-main {
+    border-radius: 20px;
+    height: 615px;
+    box-shadow: 0px 0px 100px #ebebeb;
+    border: none;
+}
+
+.side-panel-background {
+    background: url('../images/bg-sidebar-desktop.svg') no-repeat;
+    height: 100%;
+}
