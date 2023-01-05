@@ -19,18 +19,71 @@
         <div class="row justify-content-center align-self-center w-100">
             <div class="col-12 card card-main">
                 <div class="row h-100">
-                    <div class="col-sm-3 side-panel-background m-4">
-                        <div class="row">
+                    <div class="col-sm-3 p-4 m-4 side-panel-background">
+                        <div class="row pt-4">
                             <div class="col-2">
-                                <div class="circle">1</div>
+                                <div class="circle-active">1</div>
                             </div>
-                            <div class="col-10">
-
+                            <div class="col-10 pl-4">
+                                <p class="step">STEP 1</p>
+                                <p class="step-description">Your Info</p>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-2">
+                                <div class="circle">2</div>
+                            </div>
+                            <div class="col-10 pl-4">
+                                <p class="step">STEP 2</p>
+                                <p class="step-description">Select Plan</p>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-2">
+                                <div class="circle">3</div>
+                            </div>
+                            <div class="col-10 pl-4">
+                                <p class="step">STEP 3</p>
+                                <p class="step-description">Select Plan</p>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-2">
+                                <div class="circle">4</div>
+                            </div>
+                            <div class="col-10 pl-4">
+                                <p class="step">STEP 4</p>
+                                <p class="step-description">Select Plan</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-9">
+                    <div class="form-options-wrapper offset-1 col-sm-6 pt-5">
+                        <h2 class="header">Personal info</h2>
+                        <p class="sub-header">Please provide your name, email address, and phone number.</p>
+                        
+                        <br>
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <small id="nameHelp" class="form-text float-right text-danger font-weight-bold"></small>
+                            <input type="text" class="form-control form-control-lg" id="name" aria-describedby="nameHelp" placeholder="e.g. Stephen King">
+                        </div>
 
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <small id="emailHelp" class="form-text float-right text-danger font-weight-bold"></small>
+                            <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" placeholder="e.g. stephenking@lorem.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number</label>
+                            <small id="phoneNumberHelp" class="form-text float-right text-danger font-weight-bold">This field is required</small>
+                            <input type="text" class="form-control form-control-lg input-error" id="phoneNumber" aria-describedby="phoneNumberHelp" placeholder="e.g. +1 234 567 890">
+                        </div>
+
+                        <div class="w-100 form-options-footer">
+                            <button class="btn btn-primary-custom btn-lg float-right">Next Step</button>
+                        </div>
                     </div>                
                 </div>
             </div>
