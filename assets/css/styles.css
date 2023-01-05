@@ -1,6 +1,28 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('../fonts/Ubuntu-Bold.ttf');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url('../fonts/Ubuntu-Medium.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html, body {
     background: #eef5ff;
     height: 90vh !important;
+    font-family: 'Ubuntu-Regular', Arial, sans-serif !important;
 }
 
 .card-main {
@@ -25,13 +47,123 @@ html, body {
 
 .circle {
     border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    font-weight: 700;
+}
+
+.circle-active {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
     padding: 10px;
     background: #bde2ff;
-    border: 1px solid #022656;
+    border: 2px solid #022656;
     color: #022656;
     text-align: center;
     font: 14px Arial, sans-serif;
-  }
+    font-weight: 700;
+}
+
+.step {
+    font-size: 13px;
+    color: #948fff;
+    font-weight: 300;
+    margin: 0px 0px 0px 0px;
+}
+
+.step-description {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header {
+    color: #022656;
+    font-family: 'Ubuntu-Bold', Arial, sans-serif !important;
+    margin-top: 20px;
+}
+
+.sub-header {
+    color: #919095;
+}
+
+label {
+    color: #022656;
+    font-size: 14px;
+}
+
+input {
+    color: #022656 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+input:focus {
+    border: #022656 1px solid !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.input-error {
+    border: #dc3545 1px solid !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.input-error:focus {
+    border: #dc3545 1px solid !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+input::-moz-placeholder {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+input::-ms-input-placeholder {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.form-options-wrapper{
+    position:relative;
+}
+
+.form-options-footer{
+    position:absolute; bottom: 80px;
+}
+
+.btn-primary-custom {
+    color: #fff;
+    background-color: #01295a;
+    border-color: #01295a;
+    font-size: 15px !important;
+    line-height: 30px;
+}
+
+.btn-primary-custom:hover {
+    color: #fff;
+    background-color: #174a8a;
+    border-color: #174a8a;
+
+}
