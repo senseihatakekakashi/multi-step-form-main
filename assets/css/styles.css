@@ -14,3 +14,24 @@ html, body {
     background: url('../images/bg-sidebar-desktop.svg') no-repeat;
     height: 100%;
 }
+
+.primary-blue-text-color {
+    color: #022656;
+}
+
+.bg-light-blue {
+    background: #bde2ff;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    padding: 10px;
+    background: #bde2ff;
+    border: 1px solid #022656;
+    color: #022656;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+  }
