@@ -173,6 +173,22 @@ input::-ms-input-placeholder {
 
 }
 
+.btn-secondary-custom {
+    color: #fff;
+    background-color: #01295a;
+    border-color: #01295a;
+    font-size: 15px !important;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.btn-secondary-custom:hover {
+    color: #fff;
+    background-color: #918cfd;
+    border-color: #918cfd;
+
+}
+
 .btn-custom {
     color: #919095;
     font-size: 15px !important;
@@ -347,4 +363,37 @@ input:checked + .slider:before {
 
 .custom-check input[type="checkbox"]:checked + label:after {
     opacity: 1;
+}
+
+.summary > h5 {
+    color: #022656;
+    font-size: 16px !important;
+    font-weight: 700;
+    margin: 0px 0px 3px 0px;
+}
+
+.summary > p > a {
+    color: #919095;
+    text-decoration: underline !important;
+    font-size: 13px;
+    margin: 0px 0px 3px 0px;
+}
+
+.summary > p > a:hover {
+    color: #534aa7;
+}
+
+.summary > p > span {
+    color: #022656;
+    font-size: 14px;
+    font-weight: 700;
+    margin: -10px 0px 3px 0px;
+    float: right;
+}
+
+.total {
+    color: #4a41e5;
+    font-size: 19px;
+    font-weight: 800;
+    float: right;
 }
